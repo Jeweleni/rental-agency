@@ -1,0 +1,86 @@
+.Home{
+    background-image: url("./section1/BackgroundImage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding: 0px 120;
+    position: relative;
+    /* background:linear-gradient(200.44deg, rgba(0, 0, 0, 0.0001) 16.41%, rgba(0, 0, 0, 0.51) 77.16%); */
+  }
+  .main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+  
+  }
+  
+  .map {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: none;  
+    display: flex;
+  
+  }
+  
+  .main h2 {
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    
+  
+  }
+  select {
+    padding: 2px;
+    height: 50px;
+    width: 150px;
+   
+  }
+
+  #select1 {
+    border-right: 0px;
+  }
+  
+  
+  .select {
+    background: #fff;
+    height: 50px;
+    width: 320px;
+    border-radius: 10px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .search img{
+    position: absolute;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+  }
+  
+  button {
+   width: 50px;
+   height: 50px;
+   background: #23a6f0;
+   border: 1px solid #e6e6e6;
+   border-radius: 0px 5px 5px 0px;
+   cursor: pointer;
+   position: relative;
+  }
+
+  

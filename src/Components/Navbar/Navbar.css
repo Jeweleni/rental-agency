@@ -1,0 +1,48 @@
+nav{
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  gap: 10px;
+  padding-left: 20px;
+  
+}
+  
+nav img{
+  width: 147px;
+  height: 50px;
+  justify-content: left;
+  margin-left: 10%;
+}
+
+.links{
+  display: flex;
+  flex: 1 0 auto;
+  gap: 10px;
+  list-style: none;
+  justify-content: center;
+ 
+}
+
+.links a{
+  text-decoration: none;
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.links a:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+
+.links a:active{
+  text-decoration: underline;
+  color: #fff;
+}
+
+nav .links{
+  width: 50%;
+}

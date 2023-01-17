@@ -1,0 +1,34 @@
+
+.minimum-living{
+    background-color: #E5E5E5;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.minimum-living-section img{
+    position: absolute;
+    width: 387px;
+    height: 521px;
+    margin-left: 0px;
+    margin-top: 102px;
+}
+
+.minimum-living h2{
+    position: absolute;
+    width: 839px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 64px;
+    text-transform: capitalize;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}

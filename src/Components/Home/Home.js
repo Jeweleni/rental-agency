@@ -1,31 +1,37 @@
 import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
-import map from "../Images/map.png"
-import logo from "../Images/logo.png"
+import vector from ".//section1/vector.png"
+import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+import Navbar from "../Navbar/Navbar"
+import "./Home.css";
+
+
 
 const Home = () => {
     const[search, setSearch]= useState("")
+    const { isLoaded } = useLoadScript({
+        googleMapsApiKey : process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
+    });
+
+    if (!isLoaded) return <div>Loading...</div>
     
+
     return (
+
+        
+
             <div className="Home"> 
-                <nav>
-                    <img className="logo" src={logo} alt="logo" />
-                        <ul className="nav-links">
-                            <li>Home</li>
-                            <li>Landlord</li>
-                            <li>Tenants</li>
-                            <li>Contact Us</li>
-                        </ul>
-                </nav>
+                <Navbar/>
 
-
+                
                 <section className="main">
                     <h2>The most affortable place to stay in the san franciso bay area</h2>
                     <div >
-                        <img className="map" src={map} alt="map"/>
+
+                    <GoogleMap zoom={5} center={{lat:37, lng:-122}} mapContainerClassName="map"></GoogleMap>;
 
                         <div className="select">
-                        <select>
+                        <select id="select1">
                             <option>All Types</option>
                             <option>Apartment</option>
                             <option>House</option>
@@ -42,20 +48,22 @@ const Home = () => {
                             <option>Chinatown</option>
                         </select>
 
-                        </div>
-                        
                         <div className="search">
-                            <input type="search" className="searchbar"
-                            onChange={e=>setSearch}/>
-                            
+                        
+                            <img src={vector} alt="search"/>
+
+                        <button type="search"></button>
                         </div>
+                        </div>
+                    
+                        
                     </div>
-                </section>
+                </section> 
                 
             </div>
             
-        
     );
+   
 }
 
 export default Home;
