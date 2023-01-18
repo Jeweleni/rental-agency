@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import Home from "./Components/Home/Home";
-import MinimunLiving from "./Components/MinimumLiving/MinimunLiving";
+import MinimumLiving from "./Components/MinimumLiving/MinimumLiving";
 import "./App.css";
 
 
@@ -12,7 +12,7 @@ function App() {
         
       
         <Home />
-        {/* <MinimunLiving /> */}
+       <MinimumLiving/>
       </div>
     </Router>
   );
