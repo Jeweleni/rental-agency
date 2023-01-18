@@ -1,14 +1,13 @@
-import React, { useState } from "react";
-import { FaSearch } from "react-icons/fa";
+import React from "react";
 import vector from ".//section1/vector.png"
-import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
+import { GoogleMap, useLoadScript } from "@react-google-maps/api";
 import Navbar from "../Navbar/Navbar"
 import "./Home.css";
 
 
 
 const Home = () => {
-    const[search, setSearch]= useState("")
+    // const[search, setSearch]= useState("")
     const { isLoaded } = useLoadScript({
         googleMapsApiKey : process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
     });
