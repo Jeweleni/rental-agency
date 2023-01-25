@@ -2,7 +2,7 @@ nav{
   display: flex;
   padding: 20px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   text-align: center;
   gap: 10px;
   padding-left: 20px;
@@ -46,3 +46,4 @@ nav img{
 nav .links{
   width: 50%;
 }
+

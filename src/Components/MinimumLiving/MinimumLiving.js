@@ -17,14 +17,16 @@ const MinimunLiving = () => {
             <hr/>
             
             <div className="content">
-            <div className="image">
-                <img src={living} alt="living"/>
+                <div className="image">
+                    <img src={living} alt="living"/>
 
-            </div>
+                </div>
 
 
             <div className="right">
                 {/* the icons */}
+
+               
 
                 <div className="icons">
                     <span>
@@ -62,11 +64,13 @@ const MinimunLiving = () => {
                     </span>
                     <p>Pay for what <br/>you use !</p>
                 </div>
-            </div>
-        </div>
 
-    </div>
-       
+               
+            </div>
+            </div>
+
+        </div>
+          
     );
 }
  

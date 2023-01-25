@@ -16,7 +16,7 @@ const Navbar = () => {
                     <Link to="/Tenats">Tenants</Link>
                     <Link to="/Contact">Contact Us</Link>
                 </div>
-         
+                <hr/>
         </nav>
         
 

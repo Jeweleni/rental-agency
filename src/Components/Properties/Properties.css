@@ -1,0 +1,58 @@
+.properties{
+    background-color: #ffffff;
+    padding: 93px 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.properties h3{
+    font-weight: 800;
+    font-size: 36px;
+    color: #000000;
+    line-height: 64px;
+    width: 839px;
+    height: 64px;
+    font-family: inter;
+    font-style: normal;
+    text-align: left;
+}
+
+.properties hr{
+    width: 385px;
+    height: 0px;
+    border: 3px solid #f4511e;
+    text-align: left;
+    position: relative;
+}
+
+.properties .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 65px;
+    margin-top: 50px;
+}
+
+
+.properties .content .right {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+.properties .content .right {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+.properties img{
+    width: 357.73px;
+    height: 283px;
+    
+}
+.properties .content .right .image {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+  }
