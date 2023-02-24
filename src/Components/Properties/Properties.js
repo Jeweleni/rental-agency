@@ -5,80 +5,35 @@ import image4 from "./section3/image4.png"
 import image5 from "./section3/image5.png"
 import image6 from "./section3/image6.png"
 import "./Properties.css"
-
+import PropertyCard from "./PropertyCard"
 
 const Properties = () => {
     return (
         <div className="properties">
-            <h3>List Of Properties</h3>
-            <hr/>
+            <section>
+                <h3>List of Properties</h3>
+                <button>View All Properties</button>
+            </section>
+            <hr />
+     
+    <div class="top">
+      <PropertyCard imgUrl={image1}/>
+      <PropertyCard imgUrl={image2} />
+      <PropertyCard imgUrl={image3} />
+      <PropertyCard imgUrl={image4} />
+      <PropertyCard imgUrl={image5} />
+      <PropertyCard imgUrl={image6} />
+    </div>
+  
 
-            <div className="content">
-
-                <div className="right">
-                <div className="image">
-                    <img src={image1}/>
-                    <span>
-                    <h5>2578 Folsom street, san francisco, CA, 94110</h5>
-                    <p>Private Room</p>
-                    <p>$1200/month</p>
-                    <div>
-                        
-                    </div>
-                    </span>
-                </div>
-
-                <div className="image">
-                    <img src={image2}/>
-                    <h5>2578 Folsom street, san francisco, CA, 94110</h5>
-                    <p>Private Room</p>
-                    <p>$1200/month</p>
-                    <div>
-                        <span>1</span> <span>2</span> <span>3</span> 
-                    </div>
-                </div>
-
-                <div className="image">
-                    <img src={image3}/>
-                    <h5>2578 Folsom street, san francisco, CA, 94110</h5>
-                    <p>Private Room</p>
-                    <p>$1200/month</p>
-                    <div>
-                        <span>1</span> <span>2</span> <span>3</span> 
-                    </div>
-                </div>
-
-                <div className="image">
-                    <img src={image4}/>
-                    <h5>2578 Folsom street, san francisco, CA, 94110</h5>
-                    <p>Private Room</p>
-                    <p>$1200/month</p>
-                    <div>
-                        <span>1</span> <span>2</span> <span>3</span> 
-                    </div>
-                </div>
-
-                <div className="image">
-                    <img src={image5}/>
-                    <h5>2578 Folsom street, san francisco, CA, 94110</h5>
-                    <p>Private Room</p>
-                    <p>$1200/month</p>
-                    <div>
-                        <span>1</span> <span>2</span> <span>3</span> 
-                    </div>
-                </div>
-
-                <div className="image">
-                    <img src={image6}/>
-                    <h5>2578 Folsom street, san francisco, CA, 94110</h5>
-                    <p>Private Room</p>
-                    <p>$1200/month</p>
-                    <div>
-                        <span>1</span> <span>2</span> <span>3</span> 
-                    </div>
-                </div>
-            </div>
-            </div>
+  <div class="button">
+    <button class="first">First</button>
+    <button class="num">1</button>
+    <button class="active">2</button>
+    <button class="num">3</button>
+    <button class="next">Next</button>
+            
+        </div>
         </div>
       );
 }
